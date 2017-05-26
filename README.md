@@ -1,2 +1,3 @@
-# .vim
+# Vim Configurations
+
 My vim configurations

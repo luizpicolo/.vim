@@ -1,4 +1,8 @@
+set shell=/bin/bash
 set nocompatible              " be iMproved, required
+set laststatus=2
+set number
+let NERDTreeShowHidden=1
 filetype off                  " required
 
 " Color Schema
@@ -16,8 +20,12 @@ Plugin 'VundleVim/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
-
+Plugin 'rails.vim'
+Plugin 'ruby.vim'
+Plugin 'bundler.vim'
+Plugin 'itchyny/lightline.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'altercation/vim-colors-solarized'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

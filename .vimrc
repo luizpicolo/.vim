@@ -24,6 +24,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tpope/vim-fugitive'
 Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'mileszs/ack.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
